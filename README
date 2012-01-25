@@ -1,0 +1,40 @@
+Traduzione di JoomShopping
+
+Procedure di aggiornamento lingua alla versione 3.4.2
+
+La sicronizzazione delle stringhe tradotte si basa sulla versione en-EN
+
+- usare i doppi apici " per racchiudere la frase tradotta
+- usare il singolo apice ' solo nelle frasi che contengono anche esse
+doppi apici o altri caratteri speciali (ad esempio i tag html)
+
+- in caso di frase delimitata dal singolo apice, per inserire apostrofi si deve mettere prima il carattere \
+
+
+Esempi di uso dove è necessario il singolo apice e la barra:
+
+define('_DEFINIZIONE', 'più <a href="%s" target="_blank">l\'ordine</a>');
+
+
+
+In tutti gli altri casi vanno messi i doppi apici, anche in presenza di variabili %s e apostrofi
+
+define('_JSHOP_PRICE_FOR_QTY', "Prezzi");
+
+define('_JSHOP_X_COMENTAR', "Commenti (%s)");
+
+define('_PROVA', "Totale dell'ordine");
+
+
+Se ci sono altre accorgimenti da rispettare che siano funzionanti e che producano un buon codice,
+aggiungerli qua sotto:
+
+- 
+- 
+-
+-
+...
+
+
+Si possono usare tutti i caratteri accentati perchè si presuppone che chi sviluppa un sito oggi, nel 2012,
+usi la codifica UTF-8 e non le vecchia iso occidentali.
