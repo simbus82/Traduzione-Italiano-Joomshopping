@@ -402,12 +402,17 @@ define('_JSHOP_VENDOR', 'Venditore');
 define('_JSHOP_VIEW_OTHER_VENDOR_PRODUCTS', 'Mostra gli altri prodotti del venditore');
 define('_JSHOP_ABOUT_VENDOR', 'Informazioni sul venditore');
 
-define('_JSHOP_LAST_PRODUCTS','Ultimi Prodotti');
-define('_JSHOP_RANDOM_PRODUCTS','Prodotti a caso');
-define('_JSHOP_BESTSELLER','I più venduti');
-define('_JSHOP_LABEL','Etichetta');
-define('_JSHOP_TOP_RATING','I più votati');
-define('_JSHOP_TOP_HITS','I più cliccati');
-define('_JSHOP_PRINT','Stampa');
+define('_JSHOP_LAST_PRODUCTS',"Ultimi Prodotti");
+define('_JSHOP_RANDOM_PRODUCTS',"Prodotti a caso");
+define('_JSHOP_BESTSELLER',"I più venduti");
+define('_JSHOP_LABEL',"Etichetta");
+define('_JSHOP_TOP_RATING',"I più votati");
+define('_JSHOP_TOP_HITS',"I più cliccati");
+define('_JSHOP_PRINT',"Stampa");
+
+define('_JSHOP_DEFAULT_PRICE',"Prezzo senza sconto");
+define('_JSHOP_QTY_IN_STOCK',"Quantità  in magazzino");
+define('_JSHOP_UNLIMITED',"Illimitato");
+define('_JSHOP_OF','di');
 
 ?>
