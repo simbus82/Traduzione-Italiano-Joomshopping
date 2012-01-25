@@ -887,7 +887,7 @@ define('_JSHOP_EXTENDED_TAX_RULE_FOR','Estendi regola delle tasse per');
 define('_JSHOP_USER_WITH_TAX_ID_TAX','Tassa (Utente con ID di Tassa)');
 define('_JSHOP_SHIPPING_EXT_PRICE_CALC','Estensione per il calcolo del prezzo');
 define('_JSHOP_DISPLAY_REVIEW_WITHOUT_CONFIRM','Mostra recensioni senza conferma');
-define('_JSHOP_MANUFACTURER_SORTING','Ordine Produttori');
+define('_JSHOP_MANUFACTURER_SORTING','Ordina per Produttori');
 define('_JSHOP_FIELD_HOME', 'Casa');
 define('_JSHOP_FIELD_APARTMENT', 'Appartamento');
 define('_JSHOP_DISPLAY_WEIGHT_AS', 'Visualizza peso in');
