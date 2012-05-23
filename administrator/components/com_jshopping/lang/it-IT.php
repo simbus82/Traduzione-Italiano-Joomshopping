@@ -5,6 +5,7 @@
 * @package      Jshopping
 * @copyright    Copyright (C) 2010 webdesigner-profi.de. All rights reserved.
 * @license      GNU/GPL
+* @translation  simbus82
 */
 
 define("_JSHOP_NO", "No");
