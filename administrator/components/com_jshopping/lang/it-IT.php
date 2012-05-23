@@ -106,7 +106,7 @@ define("_JSHOP_CATEGORY", "Categoria");
 define("_JSHOP_EDIT_CATEGORY", "Modifica Categoria");
 define("_JSHOP_NEW_CATEGORY", "Nuova Categoria");
 define("_JSHOP_ORDERING_CATEGORY", "Ordina Categoria");
-define("_JSHOP_ORDERINGTYPE_CATEGORY", "Ordina per <br>(sottocategorie)");
+define("_JSHOP_ORDERINGTYPE_CATEGORY", "Ordina per <br />(sottocategorie)");
 define("_JSHOP_TEMPLATE_CATEGORY", "Template per le categorie");
 define("_JSHOP_PRODUCT_SORTING", "Ordina Prodotto");
 define("_JSHOP_PRODUCT_SORTING_DIRECTION", "Direzione Ordine Prodotto");
@@ -217,8 +217,8 @@ define("_JSHOP_PRODUCT_VIDEOS", "Video");
 define("_JSHOP_UPLOAD_VIDEO", "Seleziona video");
 define("_JSHOP_UPLOAD_VIDEO_IMAGE", "Seleziona anteprima video");
 define("_JSHOP_PRODUCT_RELATED", "Prodotti correlati");
-define("_JSHOP_PRODUCT_RELATED_INFO", "Puoi selezionare dei prodotti da quelli precedentemente inseriti che verranno mostrati sotto il corrente prodotto. <br>
-Se si vende, per esempio, un cappello si potrebbe volere offrire anche una sciarpa<br>Si può creare il prodotto per la sciarpa, poi quello per il cappello e correlare i due prodotti. Poi, quando un utente<br>selezionerà il cappello e cliccherà sui dettagli, cedrà proposta anche la sciarpa.");
+define("_JSHOP_PRODUCT_RELATED_INFO", "Puoi selezionare dei prodotti da quelli precedentemente inseriti che verranno mostrati sotto il corrente prodotto. <br />
+Se si vende, per esempio, un cappello si potrebbe volere offrire anche una sciarpa<br />Si può creare il prodotto per la sciarpa, poi quello per il cappello e correlare i due prodotti. Poi, quando un utente<br />selezionerà il cappello e cliccherà sui dettagli, cedrà proposta anche la sciarpa.");
 define("_JSHOP_PRODUCTS_RELATED_IN_ROW", "Quantità di prodotti correlati per riga");
 define("_JSHOP_PRODUCTS_RELATED", "Prodotti correlati");
 define("_JSHOP_DELETE_IMAGE", "Cancella questa immagine");
@@ -298,7 +298,7 @@ define("_JSHOP_USER_AS_CATALOG", "Usa come catalogo (carrello disattivato)");
 define("_JSHOP_SHOW_TAX", "Mostra tasse");
 define("_JSHOP_SHOW_TAX_IN_CART", "Mostra tasse del prodotto nel carrello");
 define("_JSHOP_SHOW_PLUS_SHIPPING", "Mostra \"Più Spedizione\"");
-define("_JSHOP_SHIPPING_DESCR_1", 'Descrizione di spedizione<br/><span style="font-size:10px;">Per le opzioni del prodotto: Mostra "Più Spedizione"</span>');
+define("_JSHOP_SHIPPING_DESCR_1", 'Descrizione di spedizione<br /><span style="font-size:10px;">Per le opzioni del prodotto: Mostra "Più Spedizione"</span>');
 define("_JSHOP_HIDE_BUY_PRODUCT_NOT_AVAIBLE_STOCK", "Nascondi pulsante di acquisto quando il prodotto non è disponibile in magazzino");
 define("_JSHOP_ABILITY_TO_SORT_PRODUCTS", "Mostra opzioni di ordinamento nella pagina");
 define("_JSHOP_SHOW_SELECTBOX_COUNT_PRODUCTS_TO_PAGE", "Mostra la selezione del \"Numero prodotti per pagina\"");
@@ -475,7 +475,7 @@ define("_JSHOP_ORDER_LIST", "Lista ordini");
 define("_JSHOP_ORDER_PURCHASE", "Ordine d'acquisto");
 define("_JSHOP_STATUS_CHANGE", "Cambia stato");
 define("_JSHOP_ORDER_HISTORY", "Storico ordini");
-define("_JSHOP_ORDER_STATUS_CHANGE", "Cambia stato d'ordine");
+define("_JSHOP_ORDER_STATUS_CHANGE", "Cambia status ordine");
 define("_JSHOP_NOT_FINISHED", "Non completato");
 
 // Order Status
@@ -493,7 +493,7 @@ define("_JSHOP_ORDER_UPDATE", "Aggiorna");
 define("_JSHOP_ORDER_TOTAL", "Totale");
 define("_JSHOP_NOTIFY_CUSTOMER", "Inviare notifica al cliente?");
 define("_JSHOP_UPDATE_STATUS", "Aggiorna lo stato");
-define("_JSHOP_CHANGE_ORDER_STATUS", "Cambia l'ordine dello stato");
+define("_JSHOP_CHANGE_ORDER_STATUS", "Cambia status ordine");
 define("_JSHOP_ALL_ORDERS", "Tutto");
 define("_JSHOP_IPADRESS", "Indirizzo IP");
 define("_JSHOP_COMMENT", "Commenti");
@@ -525,7 +525,7 @@ define("_JSHOP_FAX", "Fax");
 define("_JSHOP_PASSWORD", "Password");
 define("_JSHOP_PASSWORD_2", "Conferma password");
 define("_JSHOP_BLOCK_USER", "Blocca Utente");
-define("_JSHOP_PASSWORD_2", "Conferma password");
+define("_JSHOP_NEW_PASSWORD", "Nuova password");
 define("_JSHOP_SEND_REGISTRATION", "Registrazione");
 define("_JSHOP_USER_EXIST", "L'utente con il nome %s esiste già<br />Inserisci un altro username");
 define("_JSHOP_REG_SELECT", "Seleziona");
@@ -676,7 +676,7 @@ define("_JSHOP_FINISHED_AFTER_USED", "Disattiva dopo l'uso");
 
 define("_JSHOP_ABOUT_UPLOAD_FILES", "Avviso per il caricamento dei files");
 define("_JSHOP_IMAGE_UPLOAD_EXT_INFO", "Tipi di files permessi: JPG, GIF, PNG");
-define("_JSHOP_SIZE_FILES_INFO", "La dimensione di ogni file non deve superare %s<br>La dimensione di tutti i files non deve superare %s");
+define("_JSHOP_SIZE_FILES_INFO", "La dimensione di ogni file non deve superare %s<br />La dimensione di tutti i files non deve superare %s");
 
 define("_JSHOP_ERROR_UPLOADING_VIDEO", "Errore nel caricamento del video");
 define("_JSHOP_ERROR_UPLOADING_VIDEO_PREVIEW", "Errore nel caricamento dell'anteprima del video");
@@ -784,7 +784,7 @@ define("_JSHOP_PRODUCT_EXTRA_FIELD_VALUES", "Valori Caratteristiche Prodotto");
 define("_JSHOP_BACK_TO_PRODUCT_EXTRA_FIELDS", "Torna alle Caratteristiche");
 
 define("_JSHOP_ENTER_LICENSE_KEY", "Inserisci codice licenza");
-define("_JSHOP_JS_BUY_EXTENSIONS", 'Vuoi eliminare il link a Webdesigner-Profi presente nelle pagine di JoomShopping?<br>Qua puoi comprare una versione senza questo link e tante altri moduli e addons.<br><a href="http://www.webdesigner-profi.de/joomla-webdesign/shop" target="_blank">Effetua il tuo ordine!</a>');
+define("_JSHOP_JS_BUY_EXTENSIONS", 'Vuoi eliminare il link a Webdesigner-Profi presente nelle pagine di JoomShopping?<br />Qua puoi comprare una versione senza questo link e tante altri moduli e addons.<br /><a href="http://www.webdesigner-profi.de/joomla-webdesign/shop" target="_blank">Effetua il tuo ordine!</a>');
 
 //statistics
 define("_JSHOP_STATISTIC", "Statistiche"); 
