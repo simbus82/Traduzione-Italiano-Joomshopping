@@ -69,13 +69,13 @@ define('_JSHOP_DELETE', "Elimina");
 define('_JSHOP_CONFIRM_REMOVE', "Vuoi veramente rimuoverlo?");
 
 // Messages
-define('_JSHOP_REGWARN_INUSE', 'Questo nome utente / password &egrave; gi&agrave; in uso. Si prega di provare con un altro.');
+define('_JSHOP_REGWARN_INUSE', 'Questo nome utente / password è già in uso. Si prega di provare con un altro.');
 define('_JSHOP_REGWARN_NAME','Inserisci il tuo nome.');
 define('_JSHOP_REGWARN_LNAME','Inserisci il tuo cognome.');
 define('_JSHOP_REGWARN_UNAME','Inserisci nome utente.');
 define('_JSHOP_REGWARN_MAIL','Inserisci un indirizzo e-mail valido.');
-define('_JSHOP_REGWARN_EMAIL_INUSE','Questo nome utente / password &egrave; gi&agrave; in uso. Prova con un altro.');
-define('_JSHOP_VALID_AZ09',"Inserisci un valido %s. Nessuno spazio, non pi� di %d caratteri e deve contenere solo 0-9, az, AZ");
+define('_JSHOP_REGWARN_EMAIL_INUSE','Questo nome utente / password è già in uso. Prova con un altro.');
+define('_JSHOP_VALID_AZ09',"Inserisci un valido %s. Nessuno spazio, non più di %d caratteri e deve contenere solo 0-9, az, AZ");
 define('_JSHOP_REGWARN_STREET', 'Inserisci un indirizzo.');
 define('_JSHOP_REGWARN_ZIP', 'Inserisci un CAP.');
 define('_JSHOP_REGWARN_STATE', 'Inserisci la provincia');
@@ -96,7 +96,7 @@ define('_JSHOP_REGWARN_FIRMA_NAME_DELIVERY', 'Inserisci il nome dell\'azienda pe
 define('_JSHOP_REGWARN_CLIENT_TYPE', 'Inserisci il tipo di cliente');
 define('_JSHOP_REGWARN_FAX', 'Inserisci il fax');
 define('_JSHOP_REGWARN_FAX_DELIVERY', 'Inserisci il fax per la consegna');
-define('_JSHOP_REGWARN_CITY_DELIVERY', 'Inserisci la citt&agrave; per la consegna');
+define('_JSHOP_REGWARN_CITY_DELIVERY', 'Inserisci la città per la consegna');
 define('_JSHOP_REGWARN_FIRMA_CODE', 'Inserisci il codice Azienda');
 define('_JSHOP_REGWARN_TAX_NUMBER', 'Inserisci il numero della tassa');
 define('_JSHOP_REGWARN_MOBIL_PHONE', 'Inserisci il cellulare');
@@ -116,7 +116,7 @@ define('_JSHOP_REGWARN_ERROR_DATABASE', 'Errore nel salvataggio nel database');
 define('_JSHOP_NEXT', 'Successivo');
 define('_JSHOP_GO', 'Vai');
 define('_JSHOP_USEND_MSG_ACTIVATE', 'Salve %s,
-grazie per esserti registrato a %s. Il tuo account &egrave; stato creato ma v&agrave; attivato prima che tu possa utilizzarlo.
+grazie per esserti registrato a %s. Il tuo account è stato creato ma và attivato prima che tu possa utilizzarlo.
 Per procedere con l&acute;attivazione clicca sul seguente link o copialo nel tuo Browser:
 %s
 
@@ -140,7 +140,7 @@ define('_JSHOP_FIRMA_NAME', 'Azienda');
 define('_JSHOP_STREET_NR', 'Indirizzo / No.');
 define('_JSHOP_ZIP', 'CAP');
 define('_JSHOP_STATE', 'Provincia');
-define('_JSHOP_CITY', 'Citt&agrave;');
+define('_JSHOP_CITY', 'Città');
 define('_JSHOP_COUNTRY', 'Nazione');
 define('_JSHOP_TELEFON', 'Telefono');
 define('_JSHOP_MOBIL_PHONE', 'Cellulare');
@@ -166,7 +166,7 @@ define('_JSHOP_SORT_PRICE', 'Prezzo');
 define('_JSHOP_SORT_DATE', 'Data');
 define('_JSHOP_SORT_MANUAL', 'Predefinito');
 define('_JSHOP_SORT_RATING', 'Voto');
-define('_JSHOP_SORT_POPULAR', 'Popolarit&agrave;');
+define('_JSHOP_SORT_POPULAR', 'Popolarità');
 
 define('_JSHOP_RABATT_VALUE', 'Sconto');
 define('_JSHOP_RELATED_PRODUCTS', 'Prodotti correlati');
@@ -191,11 +191,11 @@ define('_JSHOP_ORDER_FINISH', 'Conferma ordine');
 define('_JSHOP_ERROR_PAYMENT_DATA', 'Si prega di inserire correttamente le informazioni per il pagamento');
 
 define("_JSHOP_HI","Salve");
-define('_JSHOP_ORDER_STATUS_CHANGE_SUBJECT','Lo stato dell\'ordine n. %s &egrave; cambiato');
+define('_JSHOP_ORDER_STATUS_CHANGE_SUBJECT','Lo stato dell\'ordine n. %s è cambiato');
 define('_JSHOP_ORDER_STATUS_CHANGE_TITLE', 'Cambia stato');
-define('_JSHOP_YOUR_ORDER_STATUS_CHANGE', 'Lo stato del tuo ordine n. %s &egrave; stato cambiato');
-define('_JSHOP_NEW_STATUS_IS', 'Il nuovo stato &egrave;');
-define('_JSHOP_ORDER_CANCELED', 'L&acute;ordine &egrave; stato cancellato');
+define('_JSHOP_YOUR_ORDER_STATUS_CHANGE', 'Lo stato del tuo ordine n. %s è stato cambiato');
+define('_JSHOP_NEW_STATUS_IS', 'Il nuovo stato è');
+define('_JSHOP_ORDER_CANCELED', 'L&acute;ordine è stato cancellato');
 define('_JSHOP_COMMENT_YOUR_ORDER', 'Commenti sul tuo ordine');
 
 define('_JSHOP_PAYMENT_DEBIT', 'Addebito');
@@ -210,12 +210,12 @@ define('_JSHOP_STEP_ORDER_4', 'Metodo di consegna');
 define('_JSHOP_STEP_ORDER_5', 'Conferma ordine');
 
   // End order
-define('_JSHOP_ADD_INFO', 'Si prega di lasciare una nota che verr&agrave; aggiunta al suo ordine:');
+define('_JSHOP_ADD_INFO', 'Si prega di lasciare una nota che verrà aggiunta al suo ordine:');
 define('_JSHOP_FINISH_DELIVERY_ADRESS', 'Indirizzo di consegna');
 define('_JSHOP_FINISH_SHIPPING_METHOD', 'Metodo di consegna');
 define('_JSHOP_FINISH_PAYMENT_METHOD', 'Metodo di pagamento');
 define('_JSHOP_THANK_YOU_ORDER', 'Grazie per il suo ordine');
-define('_JSHOP_ORDER_PLACED', 'Il tuo ordine &egrave; stato inserito correttamente! ');
+define('_JSHOP_ORDER_PLACED', 'Il tuo ordine è stato inserito correttamente! ');
 
   // E-mail
 define('_JSHOP_EMAIL_THANK_YOU', 'Grazie per aver acquistato da noi.  Qui di seguito sono riportate le informazioni riguardo il suo ordine.');
@@ -267,7 +267,7 @@ define('_JSHOP_CONTACT_FAX','Fax');
   // Account
 define('_JSHOP_SAVE', 'Salva');
 define('_JSHOP_MY_ACCOUNT', 'Il mio account');
-define('_JSHOP_ACCOUNT_UPDATE', 'L&acute;account &egrave; stato aggiornato');
+define('_JSHOP_ACCOUNT_UPDATE', 'L&acute;account è stato aggiornato');
 define('_JSHOP_NEW_PASSWORD', 'Nuova password');
 define('_JSHOP_NEW_PASSWORD_2', 'Conferma la nuova password');
 define('_JSHOP_ADVANCED_SEARCH', 'Ricerca avanzata');
@@ -306,7 +306,7 @@ define('_JSHOP_REVIEW_MARK', 'Voto');
 define('_JSHOP_DOWNLOAD_DEMO', 'Scarica demo');
 define('_JSHOP_DOWNLOAD', 'Download');
 define('_JSHOP_FOR_DOWNLOAD_ORDER_MUST_BE_PAID', 'L\'ordine deve essere pagato');
-define('_JSHOP_NUMBER_DOWNLOADS_FILE_RESTRICTED', 'Il numero di scaricamenti del file &egrave; limitato');
+define('_JSHOP_NUMBER_DOWNLOADS_FILE_RESTRICTED', 'Il numero di scaricamenti del file è limitato');
 
   // No price
 define('_JSHOP_NO_PRICE', 'Nessun prezzo');  
@@ -329,7 +329,7 @@ define("_JSHOP_CHECKOUT_SHIPPING","Spedizione");
 define("_JSHOP_CHECKOUT_PREVIEW","Conferma Ordine");
 define("_JSHOP_CHECKOUT_FINISH","Ordine Completato");
 define('_JSHOP_INC_TAX', 'incl. IVA');   
-define('_JSHOP_PLUS_TAX', 'pi&ugrave; IVA');   
+define('_JSHOP_PLUS_TAX', 'più IVA');   
 define('_JSHOP_ERROR_ORDERID', 'Errore ID dell\'Ordine');
 define('_JSHOP_PAYMENT_CANCEL', 'Annullare il Pagamento.');
 define('_JSHOP_PAYMENT_CANCELED', 'Pagamento annullato');
@@ -342,7 +342,7 @@ define('_JSHOP_MR', 'Sig.');
 define('_JSHOP_MS', 'Sig.ra');
 define('_JSHOP_FIRMA', 'Azienda');
 define('_JSHOP_ENTER_CORRECT_INFO_REVIEW','Inserire correttamente il commento');
-define('_JSHOP_YOUR_REVIEW_SAVE','Il tuo commento &egrave; stato salvato e sar&agrave; visualizzato solo dopo la conferma dell\'Amministratore');
+define('_JSHOP_YOUR_REVIEW_SAVE','Il tuo commento è stato salvato e sarà visualizzato solo dopo la conferma dell\'Amministratore');
 define('_JSHOP_ERROR_PAYMENT_FILE_NOT_EXIST','Errore nel metodo di pagamento "%s", il file "%s" non esiste');
 define('_JSHOP_GO_TO_CART','Vai al Carrello');
 define('_JSHOP_GO_TO_WISHLIST','Vai alla Lista dei Desideri');
@@ -359,16 +359,16 @@ define('_JSHOP_HERE', 'qui');
 define('_JSHOP_PRICE_FOR_QTY', 'Prezzi');
 define('_JSHOP_PER_PIECE', 'per pezzo');
 define('_JSHOP_SELECT_PRODUCT_OPTIONS', 'Selezionare le opzioni per il prodotto');
-define('_JSHOP_ERROR_EXIST_QTY_PRODUCT', 'Alcuni prodotti non possono essere consegnati nella quantit&agrave; ordinata<br/>La quantit&agrave; massima per l\'ordine &egrave; %s.');
-define('_JSHOP_ERROR_EXIST_QTY_PRODUCT_IN_CART', 'Alcuni prodotti non possono essere consegnati nella quantit&agrave; ordinata<br/>Il tuo carrello contiene gi&agrave; %s prodotti.<br/>La quantit&agrave; massima per l\'ordine &egrave; %s.');
-define('_JSHOP_ERROR_EXIST_QTY_PRODUCT_BASKET', 'Per il prodotto "%s" la quantit&agrave; massima per l\ordine &egrave; %s.');
+define('_JSHOP_ERROR_EXIST_QTY_PRODUCT', 'Alcuni prodotti non possono essere consegnati nella quantità ordinata<br/>La quantità massima per l\'ordine è %s.');
+define('_JSHOP_ERROR_EXIST_QTY_PRODUCT_IN_CART', 'Alcuni prodotti non possono essere consegnati nella quantità ordinata<br/>Il tuo carrello contiene già %s prodotti.<br/>La quantità massima per l\'ordine è %s.');
+define('_JSHOP_ERROR_EXIST_QTY_PRODUCT_BASKET', 'Per il prodotto "%s" la quantità massima per l\ordine è %s.');
 define('_JSHOP_BUY', 'Acquista');
 define('_JSHOP_PRODUCT_NOT_AVAILABLE', 'Non disponibile');
-define('_JSHOP_PRODUCT_NOT_AVAILABLE_THIS_OPTION', 'L\'opzione selezionata non &egrave; disponibile');
+define('_JSHOP_PRODUCT_NOT_AVAILABLE_THIS_OPTION', 'L\'opzione selezionata non è disponibile');
 define('_JSHOP_X_COMENTAR', 'Commenti (%s)');
 define('_JSHOP_INC_PERCENT_TAX', 'Incl. %s %% IVA');
-define('_JSHOP_PLUS_PERCENT_TAX', 'pi&ugrave; %s %% IVA');
-define('_JSHOP_PLUS_SHIPPING', 'pi&ugrave; <a href="%s" target="_blank">spedizione</a>');
+define('_JSHOP_PLUS_PERCENT_TAX', 'più %s %% IVA');
+define('_JSHOP_PLUS_SHIPPING', 'più <a href="%s" target="_blank">spedizione</a>');
 define('_JSHOP_SHIPPING', 'Spedizione');
 define('_JSHOP_DELIVERY_TIME', 'Tempo di consegna');
 define('_JSHOP_IDENTIFICATION_NUMBER', 'Identificazione Nr.');
