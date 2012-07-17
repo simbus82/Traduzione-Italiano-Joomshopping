@@ -77,6 +77,8 @@ define('_JSHOP_REGWARN_MAIL','Inserisci un indirizzo e-mail valido.');
 define('_JSHOP_REGWARN_EMAIL_INUSE','Questo nome utente / password è già in uso. Prova con un altro.');
 define('_JSHOP_VALID_AZ09',"Inserisci un valido %s. Nessuno spazio, non più di %d caratteri e deve contenere solo 0-9, az, AZ");
 define('_JSHOP_REGWARN_STREET', 'Inserisci un indirizzo.');
+define('_JSHOP_REGWARN_HOME', 'Inserisci una casa');
+define('_JSHOP_REGWARN_APARTMENT', 'Inserisci un appartamento');
 define('_JSHOP_REGWARN_ZIP', 'Inserisci un CAP.');
 define('_JSHOP_REGWARN_STATE', 'Inserisci la provincia');
 define('_JSHOP_REGWARN_COUNTRY', 'Inserisci la nazione');
@@ -88,6 +90,8 @@ define('_JSHOP_REGWARN_MAIL_DELIVERY','Inserisci un indirizzo e-mail per la cons
 define('_JSHOP_REGWARN_STREET_DELIVERY', 'Inserisci un indirizzo per la consegna');
 define('_JSHOP_REGWARN_ZIP_DELIVERY', 'Inserisci un CAP per la consegna');
 define('_JSHOP_REGWARN_STATE_DELIVERY', 'Inserisci una provincia per la consegna');
+define('_JSHOP_REGWARN_HOME_DELIVERY', 'Inserisici una casa per la consegna');
+define('_JSHOP_REGWARN_APARTMENT_DELIVERY', 'Inserisci un apparamento per la consegna');
 define('_JSHOP_REGWARN_COUNTRY_DELIVERY', 'Inserisci uno stato per la consegna');
 define('_JSHOP_REGWARN_TITLE_DELIVERY', 'Inserisci un titolo per la consegna');
 define('_JSHOP_REGWARN_PHONE_DELIVERY', 'Inserisci un recapito telefonico per la consegna');
@@ -137,6 +141,8 @@ define('_JSHOP_F_NAME', 'Nome');
 define('_JSHOP_L_NAME', 'Cognome');
 define('_JSHOP_FULL_NAME', 'Nome completo');
 define('_JSHOP_FIRMA_NAME', 'Azienda');
+define('_JSHOP_HOME', 'Casa');
+define('_JSHOP_APARTMENT', 'Appartamento');
 define('_JSHOP_STREET_NR', 'Indirizzo / No.');
 define('_JSHOP_ZIP', 'CAP');
 define('_JSHOP_STATE', 'Provincia');
@@ -218,14 +224,14 @@ define('_JSHOP_THANK_YOU_ORDER', 'Grazie per il suo ordine');
 define('_JSHOP_ORDER_PLACED', 'Il tuo ordine è stato inserito correttamente! ');
 
   // E-mail
-define('_JSHOP_EMAIL_THANK_YOU', 'Grazie per aver acquistato da noi.  Qui di seguito sono riportate le informazioni riguardo il suo ordine.');
-define('_JSHOP_EMAIL_PURCHASE_ORDER', 'Ordine d&acute;acquisto');
+define('_JSHOP_EMAIL_THANK_YOU', 'Grazie per aver acquistato da noi. Qui di seguito sono riportate le informazioni riguardo il suo ordine.');
+define('_JSHOP_EMAIL_PURCHASE_ORDER', 'Ordine di acquisto');
 define('_JSHOP_DESCRIPTION', 'Descrizione');
 define('_JSHOP_ORDER_NUMBER', 'Numero ordine');
-define('_JSHOP_ORDER_DATE', 'Data dell&acute;ordine');
+define('_JSHOP_ORDER_DATE', 'Data dell\'ordine');
 define('_JSHOP_ORDER_FROM', 'Ordini per');
 define('_JSHOP_ORDER_SHORT_NR', 'Nr');
-define('_JSHOP_ORDER_STATUS', 'Stato dell&acute;ordine');
+define('_JSHOP_ORDER_STATUS', 'Stato dell\'ordine');
 define('_JSHOP_CUSTOMER_INFORMATION', 'Informazioni cliente');
 define('_JSHOP_ORDER_HISTORY', 'Storico ordine');
 define('_JSHOP_ORDER_COMMENT', 'Commenti');
@@ -307,6 +313,7 @@ define('_JSHOP_DOWNLOAD_DEMO', 'Scarica demo');
 define('_JSHOP_DOWNLOAD', 'Download');
 define('_JSHOP_FOR_DOWNLOAD_ORDER_MUST_BE_PAID', 'L\'ordine deve essere pagato');
 define('_JSHOP_NUMBER_DOWNLOADS_FILE_RESTRICTED', 'Il numero di scaricamenti del file è limitato');
+define('_JSHOP_TIME_DOWNLOADS_FILE_RESTRICTED', 'Il download a tempo di questo file è limitato');
 
   // No price
 define('_JSHOP_NO_PRICE', 'Nessun prezzo');  
@@ -343,6 +350,7 @@ define('_JSHOP_MS', 'Sig.ra');
 define('_JSHOP_FIRMA', 'Azienda');
 define('_JSHOP_ENTER_CORRECT_INFO_REVIEW','Inserire correttamente il commento');
 define('_JSHOP_YOUR_REVIEW_SAVE','Il tuo commento è stato salvato e sarà visualizzato solo dopo la conferma dell\'Amministratore');
+define('_JSHOP_YOUR_REVIEW_SAVE_DISPLAY','Il tuo commento è stato salvato');
 define('_JSHOP_ERROR_PAYMENT_FILE_NOT_EXIST','Errore nel metodo di pagamento "%s", il file "%s" non esiste');
 define('_JSHOP_GO_TO_CART','Vai al Carrello');
 define('_JSHOP_GO_TO_WISHLIST','Vai alla Lista dei Desideri');
@@ -414,5 +422,18 @@ define('_JSHOP_DEFAULT_PRICE',"Prezzo senza sconto");
 define('_JSHOP_QTY_IN_STOCK',"Quantità  in magazzino");
 define('_JSHOP_UNLIMITED',"Illimitato");
 define('_JSHOP_OF','di');
+
+define('_JSHOP_SEARCH_FOR','Cerca per');
+define('_JSHOP_ANY_WORDS','Ogni parola');
+define('_JSHOP_ALL_WORDS','Tutte le parole');
+define('_JSHOP_EXACT_WORDS','Frase Esatta');
+
+define('_JSHOP_ORDER_DETAILS','Dettagli Ordine');
+define('_JSHOP_CART_EMPTY','Il tuo carrello al momento è vuoto.');
+define('_JSHOP_ORDER_DELIVERY_TIME', 'Tempo di spedizione');
+define('_JSHOP_GROUP', 'Gruppo');
+define('_JSHOP_TITLE', 'Titolo');
+define('_JSHOP_DISCOUNT', 'Sconto');
+define('_JSHOP_USER_GROUPS_INFO', 'Tutti i gruppi');
 
 ?>
