@@ -1,11 +1,11 @@
 <?php
 /**
-* @version      3.6.1 22.05.2012
+* @version      3.8.0 21.07.2012
 * @author       MAXXmarketing GmbH
 * @package      Jshopping
 * @copyright    Copyright (C) 2010 webdesigner-profi.de. All rights reserved.
 * @license      GNU/GPL
-* @translation  simbus82
+* @translation  simbus82.net
 */
 
 define("_JSHOP_NO", "No");
@@ -899,4 +899,49 @@ define("_JSHOP_UPLOAD_FILE_VIA_FTP", "Nome File. E' necessario il caricamento vi
 define("_JSHOP_ORDER_DETAILS", "Dettagli ordine");
 define("_JSHOP_FINISH_ORDER", "Completa ordine");
 define("_JSHOP_ORDER_FINISHED", "Ordine completato");
+define('_JSHOP_ADDONS','Addons');
+define('_JSHOP_VERSION','Version');
+define('_JSHOP_LOAD','Load');
+
+define('_JSHOP_OC', 'Other config');
+define('_JSHOP_OC_cart_back_to_shop', 'Back to shop (link in cart)');
+define('_JSHOP_OC_cart_back_to_shop_INFO', 'product / list / shop');
+define('_JSHOP_OC_product_button_back_use_end_list', 'Product button back (use end list)');
+define('_JSHOP_OC_display_tax_id_in_pdf', 'Display tax ID in PDF');
+define('_JSHOP_OC_image_quality', 'Image quality');
+define('_JSHOP_OC_image_fill_color', 'Image fill color');
+define('_JSHOP_OC_product_price_qty_discount', 'Product price qty discount');
+define('_JSHOP_OC_product_price_qty_discount_INFO', '1 - price, 2 - percent');
+define('_JSHOP_OC_rating_starparts', 'Rating star parts');
+define('_JSHOP_OC_rating_starparts_INFO', 'star is divided to {2} part');
+define('_JSHOP_OC_show_list_price_shipping_weight', 'Show list price shipping weight');
+define('_JSHOP_OC_product_price_precision', 'Product price precision');
+define('_JSHOP_OC_cart_decimal_qty_precision', 'Cart decimal qty precision');
+define('_JSHOP_OC_default_frontend_currency', 'Default frontend currency ID');
+define('_JSHOP_OC_product_file_upload_via_ftp', 'Product file upload (via ftp)');
+define('_JSHOP_OC_product_file_upload_via_ftp_INFO', '0 - upload file, 1- set name file, 2- {0,1}');
+define('_JSHOP_OC_product_file_upload_count', 'Product file upload count');
+define('_JSHOP_OC_product_image_upload_count', 'Product image upload count');
+define('_JSHOP_OC_product_video_upload_count', 'Product video upload count');
+define('_JSHOP_OC_max_number_download_sale_file', 'Max total of download sale file');
+define('_JSHOP_OC_max_number_download_sale_file_INFO', '0 - unlimited');
+define('_JSHOP_OC_max_day_download_sale_file', 'Max total of day sale file');
+define('_JSHOP_OC_max_day_download_sale_file_INFO', '0 - unlimited');
+define('_JSHOP_OC_order_display_new_digital_products', 'Display new digital products (order)');
+define('_JSHOP_OC_display_user_groups_info', 'Show user groups info');
+define('_JSHOP_OC_display_user_group', 'Show user group');
+define('_JSHOP_OC_display_delivery_time_for_product_in_order_mail', 'Show delivery time for product in order (e-mail)');
+define('_JSHOP_OC_load_jquery', 'Load jQuery');
+define('_JSHOP_OC_load_jquery_version', 'jQuery version');
+define('_JSHOP_OC_load_jquery_lightbox', 'Load Lightbox');
+define('_JSHOP_OC_load_css', 'Load css');
+define('_JSHOP_OC_load_javascript','Load javascript');
+
+define('_JSHOP_SHOW_EXTRA_FIELDS_CART','Show Characteristics in cart');
+define('_JSHOP_OVERRIDING_ADDRESSES','Overriding Addresses');
+define('_JSHOP_DELIVERY_ORDER_DEPENDS_DELIVERY_PRODUCT','Delivery of order depends on delivery of product');
+define('_JSHOP_DAYS','Days');
+define('_JSHOP_ORDER_FINISH', 'Confirm order');
+
+
 ?>

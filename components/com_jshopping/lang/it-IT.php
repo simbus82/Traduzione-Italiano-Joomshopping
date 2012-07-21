@@ -435,5 +435,5 @@ define('_JSHOP_GROUP', 'Gruppo');
 define('_JSHOP_TITLE', 'Titolo');
 define('_JSHOP_DISCOUNT', 'Sconto');
 define('_JSHOP_USER_GROUPS_INFO', 'Tutti i gruppi');
-
+define('_JSHOP_BILL_ADDRESS', 'Indirizzo di fatturazione');
 ?>
