@@ -1,6 +1,6 @@
 <?php
 /**
-* @version      3.4.2 19.01.2012
+* @version      3.9.0 19.01.2012
 * @author       MAXXmarketing GmbH
 * @package      Jshopping
 * @copyright    Copyright (C) 2010 webdesigner-profi.de. All rights reserved.
@@ -436,4 +436,5 @@ define('_JSHOP_TITLE', 'Titolo');
 define('_JSHOP_DISCOUNT', 'Sconto');
 define('_JSHOP_USER_GROUPS_INFO', 'Tutti i gruppi');
 define('_JSHOP_BILL_ADDRESS', 'Indirizzo di fatturazione');
+
 ?>

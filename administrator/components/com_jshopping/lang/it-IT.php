@@ -1,6 +1,6 @@
 <?php
 /**
-* @version      3.8.0 21.07.2012
+* @version      3.9.0 21.07.2012
 * @author       MAXXmarketing GmbH
 * @package      Jshopping
 * @copyright    Copyright (C) 2010 webdesigner-profi.de. All rights reserved.
@@ -942,6 +942,7 @@ define('_JSHOP_OVERRIDING_ADDRESSES','Overriding Addresses');
 define('_JSHOP_DELIVERY_ORDER_DEPENDS_DELIVERY_PRODUCT','Delivery of order depends on delivery of product');
 define('_JSHOP_DAYS','Days');
 define('_JSHOP_ORDER_FINISH', 'Confirm order');
-
+define('_JSHOP_INSERT_CODE', 'Insert code');
+define('_JSHOP_UPDATE_ARE_AVAILABLE', 'Update to %s are available!');
 
 ?>
