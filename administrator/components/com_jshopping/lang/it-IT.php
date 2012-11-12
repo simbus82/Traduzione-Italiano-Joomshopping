@@ -1,11 +1,11 @@
 <?php
 /**
-* @version      3.9.0 21.07.2012
+* @version      3.11.4 12.11.2012
 * @author       MAXXmarketing GmbH
 * @package      Jshopping
 * @copyright    Copyright (C) 2010 webdesigner-profi.de. All rights reserved.
 * @license      GNU/GPL
-* @translation  simbus82.net
+* @translation  https://github.com/simbus82 & https://github.com/ImpronteDigitali
 */
 
 define("_JSHOP_NO", "No");
