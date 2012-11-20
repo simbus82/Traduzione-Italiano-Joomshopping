@@ -404,6 +404,10 @@ define("_JSHOP_TYPE_DEFAULT", "Predefinito");
 define("_JSHOP_PAYMENT_GENERAL", "Generale");
 define("_JSHOP_PAYMENT_CONFIG", "Configurazione");
 define("_JSHOP_SHOW_DESCR_IN_EMAIL", "Mostra descrizione nell'ordine");
+define("_JSHOP_INVOICE_DATE", "Data fattura");
+define("_JSHOP_SHOW_WEIGHT_IN_INVOICE", "Mostra il peso in fattura");
+define("_JSHOP_SHOW_SHIPPING_IN_INVOICE", "Mostra la spedizione in fattura");
+define("_JSHOP_SHOW_PAYMENT_IN_INVOICE", "Mostra il pagamento in fattura");
 
 define("_JSHOP_TESTMODE", "Modalità di Test");
 define("_JSHOP_TRANSACTION_END", "Stato dell'ordine per transazione avvenuta correttamente");
