@@ -67,6 +67,7 @@ define('_JSHOP_REQUIRED', "Richiesto");
 define('_JSHOP_BACK', "Indietro");
 define('_JSHOP_DELETE', "Elimina");
 define('_JSHOP_CONFIRM_REMOVE', "Vuoi veramente rimuoverlo?");
+define('_JSHOP_ZOOM_IMAGE', 'Ingrandisci immagine');
 
 // Messages
 define('_JSHOP_REGWARN_INUSE', 'Questo nome utente / password è già in uso. Si prega di provare con un altro.');
